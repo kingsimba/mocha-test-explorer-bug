@@ -9,6 +9,5 @@
         "rpet"
     ],
     "mochaExplorer.files": "test/**/*.spec.js",
-    "mochaExplorer.require": "source-map-support/register",
-    "restructuredtext.confPath": ""
+    "mochaExplorer.require": "source-map-support/register"
 }
