@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+        "node_modules": true,
+        // BUG: if "test" folder is ignored, there will be not test in Test Explorer
+        //"test": true,   
+        ".gitignore": true
+    },
+    "cSpell.words": [
+        "ETAG",
+        "rpet"
+    ],
+    "mochaExplorer.files": "test/**/*.spec.js",
+    "mochaExplorer.require": "source-map-support/register"
+}
