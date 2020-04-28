@@ -1,8 +1,7 @@
 {
     "files.exclude": {
         "node_modules": true,
-        // BUG: if "test" folder is ignored, there will be not test in Test Explorer
-        //"test": true,   
+        //"test": true,   // BUG: if ignored, there will be no test in Test Explorer
         ".gitignore": true
     },
     "cSpell.words": [
