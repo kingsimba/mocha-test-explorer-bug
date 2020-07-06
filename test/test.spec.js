@@ -5,9 +5,10 @@ const test_1 = require("./test");
 describe('sum()', () => {
     it('should work', () => {
         // BUG: 
-        // This test failed as expected. There is an error icon on line 5, 
-        // also as expected.
-        // But these is NO error message along line 10
+        // "When run this test, "should work NOT" also runs unexpectedly.
+        chai_1.expect(test_1.sum(1, 2)).equals(3);
+    });
+    it('should work NOT', () => {
         chai_1.expect(test_1.sum(1, 2)).equals(4);
     });
 });
